@@ -327,22 +327,45 @@ img::-moz-selection {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  border-width: medium;
 }
 
 .portfolio-button a {
   display: inline-block;
-  background-color: #787878;
-  color: #fff;
+  background-color: #d5d5d5;
+  color: #000000;
   padding: 10px 20px;
-  border-radius: 3px;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 .portfolio-button a:hover {
   background-color: #000000;
+  color: #ffffff;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* Customize the gallery of the portfolio section
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+.captionPortfolio {
+  font-size: 12px;
+  padding: 8px;
+  margin: 0px;
+  text-align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    display: none; /* Hide all elements by default */
+}
+
+    /* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
 
 
 
